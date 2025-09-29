@@ -3,7 +3,7 @@
 **Finote** is a smart and automated financial management mobile application designed to assist students, workers, and households in managing their expenses effectively. It utilizes a fuzzy logic-based decision support system (DSS) to analyze spending behavior and recommend budget strategies.
 ---
 
-## 📱 Features
+## Features
 
 - 🔐 User Registration & Login (JWT Auth)
 - 💰 Income and Expense Tracking
@@ -16,7 +16,7 @@
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - [React Native](https://reactnative.dev/)
@@ -31,7 +31,7 @@
 
 ---
 
-## 📚 API Endpoints (Main)
+## API Endpoints (Main)
 
 | Feature              | Method | Endpoint                          |
 |----------------------|--------|-----------------------------------|
@@ -48,7 +48,7 @@
 
 ---
 
-## 🔐 Authentication
+## Authentication
 
 - JWT Auth (Bearer Token)
 - Token sent via HTTP Header:
@@ -57,7 +57,7 @@
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 finote/
@@ -80,7 +80,7 @@ finote/
 
 ---
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 ### 1. Backend (FastAPI)
 
@@ -115,7 +115,7 @@ export const API_BASE_URL = "http://<your-laptop-ip>:8000";
 
 ---
 
-## 🧠 Fuzzy Logic Decision Support
+## Fuzzy Logic Decision Support
 
 Finote uses a fuzzy system to evaluate a user's **income**, **expense**, and **priority level** (essential, secondary, luxury) to determine spending behavior:
 
